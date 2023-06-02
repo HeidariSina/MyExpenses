@@ -57,7 +57,7 @@ class BottomNavBar extends StatelessWidget {
       screens: buildScreens(),
       items: navBarsItems(),
       confineInSafeArea: true,
-      backgroundColor: Colors.black87,
+      backgroundColor: Colors.black,
       handleAndroidBackButtonPress: true,
       resizeToAvoidBottomInset: true,
       stateManagement: true,

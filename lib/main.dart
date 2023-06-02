@@ -19,21 +19,12 @@ class _MainAppState extends State<MainApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        appBarTheme: const AppBarTheme(color: Colors.black87),
+        appBarTheme: const AppBarTheme(color: Colors.black),
         // colorScheme: ColorScheme.dark(background: Colors.amber),
       ),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-            actions: const [
-              IconButton(
-                icon: Icon(
-                  Icons.person,
-                  color: Color(0xffe16b5c),
-                ),
-                onPressed: null,
-              ),
-            ],
             centerTitle: true,
             title: const Text("Your Expenses",
                 style: TextStyle(
